@@ -41,6 +41,8 @@ android {
 }
 
 dependencies {
+    //PRUEBAS
+    testImplementation("junit:junit:4.13.2")
 
     //Implementacion FIREBASE
     implementation(platform("com.google.firebase:firebase-bom:34.9.0"))
